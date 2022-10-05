@@ -1,6 +1,7 @@
 body {
   margin:0px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(205, 233, 255);
 }
 
 .nav-bar {
@@ -18,11 +19,10 @@ body {
 
 .nav:first-child {
   margin-right: auto; 
-  margin-left:20px;
+  margin-left:30px;
 }
 
 h1 {
-  border:solid;
   padding:5px;
   background-color: aqua;
 }
@@ -40,6 +40,16 @@ a {
 .itembluebg {
   margin:0px;
   display: flex;
+  z-index:-1;
+}
+
+.imgtext {
+  display:flex;
+
+  
+  margin-top:-100px;
+  color:white;
+  margin-left:900px;
 }
 
 
@@ -52,9 +62,15 @@ a {
 }
 
 .abouth2 {
-  width:26vw;
+  width:20vw;
   background-color:lightblue;
   height:150px;
+  border-right:solid;
+  text-align:right;
+}
+
+h2 {
+  font-size:42px;
 }
 
 .about {
@@ -72,7 +88,8 @@ a {
 }
 
 .aside {
-    width:25vw;
+    width:20vw;
+    border-right:solid;
 }
 
 .works {
@@ -108,11 +125,12 @@ a {
 
 .footer:first-child {
   margin-right:auto;
+  margin-left:50px;
 }
 
 footer a {
   color:black;
-  font-size: larger;
+  font-size: 24px;
 }
 
 
@@ -148,7 +166,16 @@ footer a {
   }
   
   body {
-    background-image: linear-gradient(to bottom right, black, rgb(4, 4, 138), grey);
+    background-image: linear-gradient(to bottom right, black, rgb(4, 4, 138), black);
+    color:white;
+  }
+
+  h1 {
+    color:black;
+  }
+
+  footer a {
+    color:white;
   }
   
   
