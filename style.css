@@ -137,6 +137,10 @@ h2 {
   height: 100%;
 }
 
+.work1, .work2:hover{
+  border:solid 10px aqua;
+}
+
 .footer-links {
   display:flex;
   justify-content:flex-end;
