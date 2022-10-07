@@ -1,6 +1,4 @@
-function myFunction() {
+function resume() {
     alert("I'm working on it!");
   }
-
-  console.log(myFunction());
   

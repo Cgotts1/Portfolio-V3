@@ -4,6 +4,7 @@ body {
   background-color: rgb(205, 233, 255);
 }
 
+/* Header containing navigation links */
 .nav-bar {
   display:flex; 
   justify-content:flex-end;
@@ -28,7 +29,6 @@ body {
   font-size:45px;
 }
 
-
 h1 {
   padding:5px;
   background-color: aqua;
@@ -44,18 +44,17 @@ a {
   font-size: 24px;
 }
 
+/* First image on website with image text box over it */
 .itembluebg {
   margin:0px;
   display: flex;
 }
 
-
-
-
 .itext{
   position:relative;
 }
 
+/* Used W3schools as reference for textbox */
 .text-block{
   position: absolute;
   bottom: 20px;
@@ -65,12 +64,9 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   font-size:24px;
-  
 }
 
-
-
-
+/* Contains the about me paragraph information */
 .about-container {
   display:flex;
   justify-content:space-between;
@@ -94,7 +90,7 @@ h2 {
   text-align: justify;
 }
 
-
+/* Contains the aside and work section */
 .content {
     display: flex;
     flex-flow: row wrap;
@@ -141,6 +137,7 @@ h2 {
   border:solid 10px aqua;
 }
 
+/* Footer containing relevant contact information */
 .footer-links {
   display:flex;
   justify-content:flex-end;
@@ -161,8 +158,6 @@ footer a, li {
   font-size: 24px;
 }
 
-
-
 /** Min width means apply css when bigger that width **/
 /** Max width means apply css when smaller that width **/
 @media screen and (max-width:768px) {
@@ -172,7 +167,7 @@ footer a, li {
     .work2 {
         width: calc(48vw - 20px);
     }
-  
+
   .nav-bar {
     display:flex;
     flex-wrap:wrap;
@@ -212,5 +207,4 @@ footer a, li {
   footer a, li {
     color:white;
   }
-    
 }
