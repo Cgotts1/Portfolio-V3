@@ -137,7 +137,7 @@ h2 {
   height: 100%;
 }
 
-.work1, .work2:hover{
+.work1:hover, .work2:hover{
   border:solid 10px aqua;
 }
 
@@ -178,18 +178,17 @@ footer a, li {
     flex-wrap:wrap;
     width: 28%; 
   }
-  
+
   .nav:first-child {
   margin-right: auto; 
   font-size:24px;
 }
-  
+
   .footer-links {
     display:flex;
     flex-wrap:wrap;
     width: 28%;
   }
-  
   
   .itembluebg {
     margin:0px;
